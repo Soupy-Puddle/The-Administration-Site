@@ -1,0 +1,23 @@
+{
+  "incidents.html": {
+    "file": "assets/incidents.html.d4f4805c.js",
+    "src": "incidents.html",
+    "isEntry": true,
+    "imports": [
+      "_navNFoot.ccac217f.js"
+    ],
+    "css": [
+      "assets/incidents.html.db9e3419.css"
+    ]
+  },
+  "_navNFoot.ccac217f.js": {
+    "file": "assets/navNFoot.ccac217f.js",
+    "css": [
+      "assets/navNFoot.2f4f26ff.css"
+    ],
+    "assets": [
+      "assets/bootstrap-icons.bacd70af.woff2",
+      "assets/bootstrap-icons.4d4572ef.woff"
+    ]
+  }
+}

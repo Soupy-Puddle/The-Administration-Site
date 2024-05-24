@@ -1,0 +1,1 @@
+.aside{display:none}@media (min-width: 576px){.aside{display:block;width:30%}.main{width:90%}}@media (min-width: 768px){.container{display:flex;flex-wrap:row nowrap}.aside{margin-left:1rem}.main{margin-right:1rem}}

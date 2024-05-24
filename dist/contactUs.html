@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    
+    
+    <link rel="icon" href="/assets/AdministrationIcon.4adc0e6c.png">
+  <script type="module" crossorigin src="/assets/navNFoot.ccac217f.js"></script>
+  <link rel="stylesheet" href="/assets/navNFoot.2f4f26ff.css">
+  <link rel="stylesheet" href="/assets/contactUs.31ae48c8.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top row row-cols-1" id="#home">
+
+    <div class="container-fluid">
+      <img src="/assets/AdministrationIcon.4adc0e6c.png" alt="Administration Logo" class="logo">
+
+      <div class="linkNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./incidents.html">Incidents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="./residents.html">Residents</a>
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" class="btn navigate-drop">
+        <i class="bi bi-justify"></i>
+      </button>
+    </div>
+
+    <div class="d-none justify-content-center text-center navLinks-sm">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./incidents.html">Incidents</a></li>
+        <li><a href="./residents.html">Residents</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+      <h4 class="text-center pt-4">Witness an Incident?</h4>
+      <h6 class="text-center pb-2">Send us your incidentss!</h6>
+      <div class="div">
+
+      <form action="send_email.php" method="post" class="pb-3">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="input" class="form-control" id="name" placeholder="Your Name Here">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Name</label>
+          <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="story" class="form-label">Your Story</label>
+          <textarea class="form-control" id="story" rows="3" required></textarea>   
+        </div>
+        <p><small>By submitted your story, you are willing to get emails back if The Administration requires more information</small></p>
+        <button type="submit" class="btn btn-light" value="Send">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <footer class="nav navbar-expand-lg justify-content-center p-2">
+    <p class="fw-lighter ">&copy; All rights reserved - THE ADMINISTRATION</p>
+  </footer>
+  
+</body>
+</html>
